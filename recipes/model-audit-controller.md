@@ -2,7 +2,7 @@
 
 > Understand and stress-test a model someone else built, in an hour instead of a week.
 
-**Kind:** Working prompt. You paste it and it does the task in-session.
+**Kind:** Prompt. You paste it and it does the task in-session.
 
 ## The problem
 

@@ -34,10 +34,10 @@ So every recipe here is written to be useful on its own, and to name the wall it
 
 So there are two kinds of recipe:
 
-- **Working prompt**: you paste it and it does the task now (compare scenarios, audit a model you received).
-- **Builder prompt**: you paste it and Claude creates, audits or hardens *your own* skill, script or `FINANCE.md`. You own the artifact, the recipe is how you forge and maintain it.
+- **Prompt**: you paste it and it does the task now (compare scenarios, audit a model you received).
+- **Custom-skill**: you paste it and Claude forges an artifact you own and can read, a skill, a script or a `FINANCE.md`, tuned to your practice. The recipe is how you forge and maintain it.
 
-The one installable artifact in this ecosystem, the Layerz agent skill, lives in [`layerz-mcp`](https://github.com/layerzlabs/layerz-mcp), not here.
+A *Custom-skill* recipe does not hand you a skill, it hands you the prompt that builds one *you* own. The one installable, pre-packaged artifact in this ecosystem, the Layerz agent skill, lives in [`layerz-mcp`](https://github.com/layerzlabs/layerz-mcp), not here.
 
 ## Recipes
 
@@ -46,7 +46,7 @@ The one installable artifact in this ecosystem, the Layerz agent skill, lives in
 | [Own your context](./recipes/context-ownership-finance-md.md) | Stop re-explaining your conventions every session |
 | [Parametric scenarios](./recipes/parametric-scenarios.md) | Generate and compare assumption-level scenarios without the model falling apart |
 | [Audit an inherited model](./recipes/model-audit-controller.md) | Understand and stress-test a model someone else built, fast |
-| [Pre-delivery review](./recipes/pre-delivery-review.md) | Catch the error before the client does, with a pre-flight checklist |
+| [Pre-delivery review](./recipes/pre-delivery-review.md) | Forge a pre-flight review skill, tuned to your conventions, so nothing ships broken |
 | [Close variance audit](./recipes/close-variance-audit.md) | A month-end variance review that is fast and reliable, with built-in sanity checks |
 
 Each recipe follows the same shape (see [`TEMPLATE.md`](./TEMPLATE.md)): the problem, the prompt, where it breaks, and what to reach for when it does.

@@ -2,7 +2,7 @@
 
 > Have Claude review the close-and-variance skill you already built, like a demanding controller would.
 
-**Kind:** Builder prompt. It does not run your close, it hardens the skill that does. You own the skill, this is how you forge and maintain it.
+**Kind:** Custom-skill. It does not run your close, it hardens the skill that does. You own the skill, this is how you forge and maintain it.
 
 ## The problem
 
