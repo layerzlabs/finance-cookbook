@@ -2,7 +2,7 @@
 
 > Stop re-explaining your conventions every session. Write them down once, in a file you own.
 
-**Kind:** Builder prompt. It forges an artifact you keep (your `FINANCE.md`), it does not produce a one-off answer.
+**Kind:** Custom-skill. It forges an artifact you keep (your `FINANCE.md`), it does not produce a one-off answer.
 
 ## The problem
 
