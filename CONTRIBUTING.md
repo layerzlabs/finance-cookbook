@@ -6,11 +6,11 @@ This cookbook grows from real work. Two ways to contribute.
 
 ## Add a recipe
 
-A recipe is a **prompt or pattern** you have actually used for financial work with an AI agent. We ship prompts, not packaged skills. If your contribution is a skill, contribute the **builder prompt** that creates or hardens it (so people own and audit the result), not the skill file itself.
+A recipe is a **prompt or pattern** you have actually used for financial work with an AI agent. We ship prompts, not packaged skills. If your contribution is a skill, contribute the **Custom-skill** recipe that creates or hardens it (so people own and audit the result), not the skill file itself.
 
 State the **kind** at the top of the recipe:
-- **Working prompt**: it does the task in-session.
-- **Builder prompt**: it forges or hardens a skill, script or `FINANCE.md` the user owns.
+- **Prompt**: it does the task in-session.
+- **Custom-skill**: it forges or hardens a skill, script or `FINANCE.md` the user owns.
 
 1. Copy [`TEMPLATE.md`](./TEMPLATE.md) into `recipes/your-recipe-name.md`.
 2. Fill the sections: the kind, the problem, the prompt, where it breaks, notes.

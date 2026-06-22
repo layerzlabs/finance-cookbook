@@ -2,7 +2,7 @@
 
 > One sentence: what this lets you do.
 
-**Kind:** Working prompt (does the task now) _or_ Builder prompt (forges or hardens a skill / script / FINANCE.md you own). Pick one.
+**Kind:** Prompt (does the task now) _or_ Custom-skill (forges or hardens a skill / script / FINANCE.md you own). Pick one.
 
 ## The problem
 

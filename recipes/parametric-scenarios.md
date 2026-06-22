@@ -2,7 +2,7 @@
 
 > Generate and compare assumption-level scenarios, while keeping the links between variables intact.
 
-**Kind:** Working prompt. You paste it and it does the task in-session.
+**Kind:** Prompt. You paste it and it does the task in-session.
 
 ## The problem
 

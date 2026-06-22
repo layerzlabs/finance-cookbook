@@ -34,10 +34,10 @@ So every recipe here is written to be useful on its own, and to name the wall it
 
 So there are two kinds of recipe:
 
-- **Working prompt**: you paste it and it does the task now (compare scenarios, audit a model you received).
-- **Builder prompt**: you paste it and Claude creates, audits or hardens *your own* skill, script or `FINANCE.md`. You own the artifact, the recipe is how you forge and maintain it.
+- **Prompt**: you paste it and it does the task now (compare scenarios, audit a model you received).
+- **Custom-skill**: you paste it and Claude forges an artifact you own and can read, a skill, a script or a `FINANCE.md`, tuned to your practice. The recipe is how you forge and maintain it.
 
-The one installable artifact in this ecosystem, the Layerz agent skill, lives in [`layerz-mcp`](https://github.com/layerzlabs/layerz-mcp), not here.
+A *Custom-skill* recipe does not hand you a skill, it hands you the prompt that builds one *you* own. The one installable, pre-packaged artifact in this ecosystem, the Layerz agent skill, lives in [`layerz-mcp`](https://github.com/layerzlabs/layerz-mcp), not here.
 
 ## Recipes
 

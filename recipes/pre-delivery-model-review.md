@@ -2,7 +2,7 @@
 
 > Catch the embarrassing error before the client does, with a controller's pre-flight checklist.
 
-**Kind:** Working prompt. You paste it and it does the task in-session.
+**Kind:** Prompt. You paste it and it does the task in-session.
 
 ## The problem
 
