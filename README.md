@@ -7,13 +7,14 @@
 
 Prompts and patterns for FP&A, modeling and reporting with Claude (and any capable agent). Each recipe is battle-tested in the field, opinionated, and honest about where a prompt stops being enough.
 
-This is the **cookbook**. It sits next to two sibling projects:
+This is the **cookbook**. It sits in a small family of open entry points to [Layerz](https://layerz.cc):
 
 | Project | Role | Link |
 |---------|------|------|
-| [`finance-md`](https://github.com/layerzlabs/finance-md) | The **standard**: how an organization encodes its financial conventions for any agent | the spec |
-| [`layerz-mcp`](https://github.com/layerzlabs/layerz-mcp) | The **tool**: how an agent drives [Layerz](https://layerz.cc) to build structured, versioned models | the integration |
 | **`finance-cookbook`** (you are here) | The **recipes**: how finance people actually use AI, day to day | the playbook |
+| [`finance-md`](https://github.com/layerzlabs/finance-md) | The **standard**: how an organization encodes its financial conventions for any agent | the spec |
+| [Layerz MCP](https://app.layerz.cc/for-agents) | The **tool**: how an agent drives [Layerz](https://layerz.cc) to build structured, versioned models | the integration |
+| [`slides-for-claude`](https://github.com/layerzlabs/slides-for-claude) | The **presentations**: turn a model or a topic into a self-contained HTML deck | the skill |
 
 The standard tells an agent *what your numbers mean*. The tool gives it *a place to build that does not drift*. The cookbook shows *what to ask for in the first place*.
 
@@ -40,13 +41,13 @@ The one installable artifact in this ecosystem, the Layerz agent skill, lives in
 
 ## Recipes
 
-| Recipe | Kind | Problem it solves |
-|--------|------|-------------------|
-| [Audit and harden your close skill](./recipes/close-variance-audit.md) | Builder | A month-end variance review that is fast *and* reliable, with built-in sanity checks |
-| [Parametric scenarios without the drift](./recipes/parametric-scenarios.md) | Working | Generate and compare assumption-level scenarios without the model falling apart |
-| [Read an inherited model like a controller](./recipes/model-audit-controller.md) | Working | Understand and stress-test a model someone else built, fast |
-| [Review your own model before it ships](./recipes/pre-delivery-model-review.md) | Working | Catch the error before the client does, with a controller's pre-flight checklist |
-| [Own your context with FINANCE.md](./recipes/context-ownership-finance-md.md) | Builder | Stop re-explaining your conventions every session |
+| Recipe | What it solves |
+|--------|----------------|
+| [Own your context](./recipes/context-ownership-finance-md.md) | Stop re-explaining your conventions every session |
+| [Parametric scenarios](./recipes/parametric-scenarios.md) | Generate and compare assumption-level scenarios without the model falling apart |
+| [Audit an inherited model](./recipes/model-audit-controller.md) | Understand and stress-test a model someone else built, fast |
+| [Pre-delivery review](./recipes/pre-delivery-model-review.md) | Catch the error before the client does, with a pre-flight checklist |
+| [Close variance audit](./recipes/close-variance-audit.md) | A month-end variance review that is fast and reliable, with built-in sanity checks |
 
 Each recipe follows the same shape (see [`TEMPLATE.md`](./TEMPLATE.md)): the problem, the prompt, where it breaks, and what to reach for when it does.
 
