@@ -58,7 +58,6 @@ The cookbook above is what we wrote. The library below is what *others* wrote an
 | Resource | Author | Good for | Link |
 |----------|--------|----------|------|
 | Anthropic Cookbook | Anthropic | Foundational prompting and agent patterns (not finance-specific) | https://github.com/anthropics/anthropic-cookbook |
-| _to curate_ | AI Finance Club / Nicolas Boucher | Finance-team AI workflows, accessible to non-coders | _add link_ |
 | _your suggestion_ | _you_ | _what it is good for_ | _open a PR_ |
 
 > This table is intentionally short. A library of 10 vetted resources beats a dump of 200. If you know one that earns its place, [open a PR](./CONTRIBUTING.md).
