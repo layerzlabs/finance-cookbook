@@ -45,6 +45,7 @@ The one installable artifact in this ecosystem, the Layerz agent skill, lives in
 | [Audit and harden your close skill](./recipes/close-variance-audit.md) | Builder | A month-end variance review that is fast *and* reliable, with built-in sanity checks |
 | [Parametric scenarios without the drift](./recipes/parametric-scenarios.md) | Working | Generate and compare assumption-level scenarios without the model falling apart |
 | [Read an inherited model like a controller](./recipes/model-audit-controller.md) | Working | Understand and stress-test a model someone else built, fast |
+| [Review your own model before it ships](./recipes/pre-delivery-model-review.md) | Working | Catch the error before the client does, with a controller's pre-flight checklist |
 | [Own your context with FINANCE.md](./recipes/context-ownership-finance-md.md) | Builder | Stop re-explaining your conventions every session |
 
 Each recipe follows the same shape (see [`TEMPLATE.md`](./TEMPLATE.md)): the problem, the prompt, where it breaks, and what to reach for when it does.
