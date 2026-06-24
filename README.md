@@ -48,6 +48,7 @@ A *Custom-skill* recipe does not hand you a skill, it hands you the prompt that 
 | [Audit an inherited model](./recipes/model-audit-controller.md) | Understand and stress-test a model someone else built, fast |
 | [Pre-delivery review](./recipes/pre-delivery-review.md) | Forge a pre-flight review skill, tuned to your conventions, so nothing ships broken |
 | [Close variance audit](./recipes/close-variance-audit.md) | A month-end variance review that is fast and reliable, with built-in sanity checks |
+| [Analytical review](./recipes/analytical-review-skill-maker.md) | Forge a recurring analytical review that surfaces variances, inconsistencies, trends and the questions to raise |
 
 Each recipe follows the same shape (see [`TEMPLATE.md`](./TEMPLATE.md)): the problem, the prompt, where it breaks, and what to reach for when it does.
 
